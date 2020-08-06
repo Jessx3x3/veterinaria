@@ -2,26 +2,40 @@
     <div id="content">
         <NavBar />
         <Carousel />
-        <b-container class="cardServices">
+        <b-container class="cardServices" id="cardServices">
             <p class="h3">Services</p>
             <b-row>
-                <b-col><Card /></b-col>
-                <b-col><Card /></b-col>
-                <b-col><Card /></b-col>
-                <b-col><Card /></b-col>
+                <b-col>
+                    <Card />
+                </b-col>
+                <b-col>
+                    <Card />
+                </b-col>
+                <b-col>
+                    <Card />
+                </b-col>
+                <b-col>
+                    <Card />
+                </b-col>
             </b-row>
         </b-container>
-        <b-container class="formHour">
+        <b-container class="formHour" id="formHour">
             <p class="h3">Hora médica</p>
             <b-row>
-                <b-col><ReservaForm /></b-col>
-                <b-col><img src="../assets/formVet.jpg" alt=""></b-col>
+                <b-col>
+                    <ReservaForm />
+                </b-col>
+                <b-col>
+                    <img src="../assets/formVet.jpg" alt="">
+                </b-col>
             </b-row>
         </b-container>
-        <b-container class="contacto">
+        <b-container class="contacto" id="contacto">
             <p class="h3">Contacto</p>
             <b-row>
-                <b-col><Map /></b-col>
+                <b-col>
+                    <Map />
+                </b-col>
                 <b-col>
                     <b-row>
                         <Card />

@@ -1,36 +1,26 @@
 <template>
-  <mdb-footer color="stylish-color-dark" class="page-footer font-small pt-4 mt-4">
+  <!-- Footer -->
+  <mdb-footer color="blue" class="font-small pt-4 mt-4">
     <mdb-container class="text-left">
       <mdb-row>
-        <mdb-col md="6">
-          <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Veterinaria</h5>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam minima rerum dolores magnam sit hic, officiis ipsum voluptates aperiam iste. Iste unde fugit sapiente voluptatibus mollitia sed exercitationem. Ea, natus.</p>
+        <mdb-col sm="6">
+          <h5 class="title">Veterinaria</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, atque obcaecati. A ipsum temporibus, voluptas sint labore unde delectus non aut dolores voluptatem consequuntur omnis nisi reiciendis iure itaque illo.</p>
         </mdb-col>
-        <hr class="clearfix w-100 d-md-none" />
-        <mdb-col md="2">
-          <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="#!">Link 2</a></li>
-            <li><a href="#!">Link 3</a></li>
-            <li><a href="#!">Link 4</a></li>
-          </ul>
-        </mdb-col>
-        <hr class="clearfix w-100 d-md-none" />
-        <mdb-col md="2">
-          <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#!">Link 1</a></li>
-            <li><a href="#!">Link 2</a></li>
-            <li><a href="#!">Link 3</a></li>
-            <li><a href="#!">Link 4</a></li>
+        <mdb-col sm="6">
+          <h5 class="title">Links de interés</h5>
+          <ul>
+            <li class="list-unstyled"><a href="/blog">Blog</a></li>
+            <li class="list-unstyled"><a href="/#contacto">Contáctanos</a></li>
+            <li class="list-unstyled"><a href="/#cardServices">Servicios</a></li>
+            <li class="list-unstyled"><a href="/#formHour">Reserva Hora</a></li>
           </ul>
         </mdb-col>
       </mdb-row>
     </mdb-container>
   </mdb-footer>
+  <!-- Footer -->
 </template>
-
 <script>
   import { mdbFooter, mdbContainer, mdbRow, mdbCol } from 'mdbvue';
   export default {

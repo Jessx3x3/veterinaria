@@ -5,8 +5,8 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Servicios</b-nav-item>
-          <b-nav-item href="#">Contactos</b-nav-item>
+          <b-nav-item href="/#cardServices">Servicios</b-nav-item>
+          <b-nav-item href="/#contacto">Contactos</b-nav-item>
           <b-nav-item href="/blog">Blogs</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
