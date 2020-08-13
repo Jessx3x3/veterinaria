@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="articulo">
         <b-container>
             <b-row>
                 <b-col>

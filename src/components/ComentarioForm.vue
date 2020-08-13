@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="comentarioForm">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group
         id="input-group-1"
