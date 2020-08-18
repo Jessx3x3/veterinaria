@@ -14,6 +14,7 @@
             <li class="list-unstyled"><a href="/#contacto">Contáctanos</a></li>
             <li class="list-unstyled"><a href="/#cardServices">Servicios</a></li>
             <li class="list-unstyled"><a href="/#formHour">Reserva Hora</a></li>
+            <li class="list-unstyled"><a href="/admin">Administrador</a></li>
           </ul>
         </mdb-col>
       </mdb-row>

@@ -13,6 +13,16 @@ Vue.use(VueRouter)
     path: '/blog',
     name: 'Blog',
     component: () => import('../views/Blog.vue')
+  },
+  {
+    path: '/admin',
+    name: 'Admin',
+    component: () => import('../views/LoginAdmin.vue')
+  },
+  {
+    path: '/index',
+    name: 'Index',
+    component: () => import('../views/IndexAdmin.vue')
   }
 ]
 
